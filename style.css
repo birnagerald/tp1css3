@@ -1,0 +1,278 @@
+h1,
+h2,
+h3 {
+    color: white;
+    padding: 3px 0 3px 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2em;
+
+}
+
+h3 {
+    font-weight: 500;
+}
+
+li {
+    list-style: none;
+   }
+
+#logo {
+    padding-left: 5%;
+}
+
+header.row {
+    margin: 0;
+}
+
+header {
+    background-image: url("Assets/bg-contenu2.png");
+
+}
+
+body>div.container {
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#recherche_conteneur {
+    margin: auto;
+}
+
+nav.row {
+    margin: 0;
+}
+
+#sfmenu {
+
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    width: 100%;
+}
+
+#sfmenu>li {
+    color: #fff;
+    background-image: url("Assets/bkg_menu_demarches.jpg");
+    display: block;
+    float: left;
+    margin-right: 1px;
+    padding: 0.7rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    width: 24.9%;
+}
+
+#sfmenu>li a {
+    color: #0275d8;
+}
+
+#sfmenu>li:hover {
+    cursor: pointer;
+}
+
+#sfmenu>li>ul {
+    background-color: #f1f6f8;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+    width: 100%;
+}
+
+#sfmenu>li:hover>ul,
+#sfmenu>li>ul:hover,
+#sfmenu>li>ul>li:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    z-index: 1;
+}
+
+#sfmenu>li ul li {
+    clear: both;
+    width: 100%;
+}
+
+.arian {
+    margin-left: -55;
+    margin-top: 20px;
+}
+
+span.date {
+    color: #9c2f03;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+#fil>ul>li:nth-child(1) {
+    float: left;
+}
+
+#fil>ul>li:nth-child(1)>a {
+    font-weight: 500;
+}
+
+
+#contenu_principal>div.row {
+    margin: 0;
+}
+
+.police-bleue {
+    color: #0e5f96;
+
+}
+
+.police-rouge {
+    color: #9c2f03
+}
+
+#ok_recherche {
+    margin-left: 13px;
+}
+
+#contenu_principal {
+    border-top-left-radius: 50px;
+}
+
+#contenu_principal>div.row,
+#col-droite>div {
+    background-color: #f1f6f8;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    -webkit-box-shadow: 1px 3px 5px 0px rgba(168, 163, 168, 1);
+    -moz-box-shadow: 1px 3px 5px 0px rgba(168, 163, 168, 1);
+    box-shadow: 1px 3px 5px 0px rgba(168, 163, 168, 1);
+
+}
+
+#contenu_principal>div.row>div>a {
+    font-weight: 500;
+    color: #0275d8;
+}
+
+#contenu_principal>div.row>div>ul,
+#col-droite>div>ul {
+    font-size: 0.8em;
+    padding: 1em 1em;
+}
+
+
+
+#contenu_principal>div.row>div>ul>li {
+    margin-bottom: 1em;
+}
+
+#col-droite>div {
+    border-radius: 10px;
+}
+
+aside div {
+    margin-bottom: 15px;
+}
+
+#col-droite>div>ul>li>a {
+    color: black;
+}
+
+#col-droite>div>ul>li>a:hover {
+    color: black;
+}
+
+#col-droite>div:nth-child(1)>div {
+    padding-left: 48%;
+    font-weight: 500;
+}
+
+#col-droite>div:nth-child(2)>div {
+    padding-left: 42%;
+    font-weight: 500;
+}
+
+.fond-bleu {
+    background-color: #0e5f96;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+
+.fond-rouge {
+    background-color: #9c2f03;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+footer {
+    background-color: #008bd3;
+}
+
+footer p,
+footer a {
+    color: white;
+}
+
+footer.container {
+    padding: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+
+footer>div.row>ul {
+    display: flex;
+    flex-direction: row;
+    padding: 25px 0 0 25px;
+}
+
+footer>div.row>ul>li>ul>li {
+    margin-left: -1.2em;
+}
+
+footer>div.row>ul>li>ul>li::before {
+
+    content: "\2022";
+    color: #47c2ff;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1.2em;
+
+}
+
+footer>div>ul{
+    flex-wrap: wrap;
+}
+
+footer>div.row>ul>li>p,
+footer>div.row>ul>li>ul>li>a {
+    font-size: 0.8em;
+}
+
+footer>div.row>ul>li>p {
+    font-weight: 500;
+}
+
+#fin_du_pied {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    text-align: center;
+}
+
+#fin_du_pied>a {
+    font-size: 0.8em;
+}
+
+#fin_du_pied>a:hover {
+    color: white;
+    text-decoration: underline;
+}
